@@ -14,14 +14,14 @@ WARNING:
 */
 
 -- Create the 'DataWarehouse' database
-Create database DataWarehouse;
-use DataWarehouse;
+CREATE DATABASE DataWarehouse;
+USE DataWarehouse;
 
 
 -- Create Schemas
-create schema bronze;
-use  bronze;
+CREATE SCHEMA bronze;
+USE  bronze;
 
-create schema sliver;
+CREATE SCHEMA sliver;
 
-create schema gold;
+CREATE schema gold;

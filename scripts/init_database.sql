@@ -23,5 +23,7 @@ CREATE SCHEMA bronze;
 USE  bronze;
 
 CREATE SCHEMA sliver;
+USE  sliver;
 
 CREATE schema gold;
+USE  gold;
